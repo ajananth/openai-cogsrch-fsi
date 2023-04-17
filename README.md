@@ -1,4 +1,4 @@
-# ChatGPT + Enterprise data with Azure OpenAI and Cognitive Search
+# ChatGPT + Enterprise data with Azure OpenAI and Cognitive Search for FSI
 
 [![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=brightgreen&logo=github)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=599293758&machine=standardLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestUs2)
 [![Open in Remote - Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/azure-samples/azure-search-openai-demo)
@@ -16,7 +16,7 @@ This sample demonstrates a few approaches for creating ChatGPT-like experiences 
 * Shows possible approaches for data preparation, prompt construction, and orchestration of interaction between model (ChatGPT) and retriever (Cognitive Search)
 * Settings directly in the UX to tweak the behavior and experiment with options
 
- <!-- ![Chat screen](docs/chatscreen.png) -->
+ ![Chat screen](docs/chatscreen.png)
 
 ## Getting Started
 
@@ -111,7 +111,7 @@ Once in the web app:
 * [Azure OpenAI Service](https://learn.microsoft.com/azure/cognitive-services/openai/overview)
 
 ### Note
-Note: Please ensure you add PDFs for your financial products to the data folder in the solution prior to deployment. The solution does not have any sample data included.
+Note: Please ensure you create a folder called data in the root location add PDFs for your financial products to it prior to deployment. The solution does not have any sample data included.
 
 <!-- 
 ### Note
