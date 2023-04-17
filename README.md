@@ -111,7 +111,7 @@ Once in the web app:
 * [Azure OpenAI Service](https://learn.microsoft.com/azure/cognitive-services/openai/overview)
 
 ### Note
-Note: Please ensure you create a folder called data in the root location add PDFs for your financial products to it prior to deployment. The solution does not have any sample data included.
+Note: Please ensure you create a folder called data in the root location and add PDFs for your financial products to it prior to deployment. The solution does not have any sample data included.
 
 <!-- 
 ### Note
