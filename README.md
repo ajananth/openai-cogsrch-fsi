@@ -24,6 +24,9 @@ This sample demonstrates a few approaches for creating ChatGPT-like experiences 
 
 > **AZURE RESOURCE COSTS** by default this sample will create Azure App Service and Azure Cognitive Search resources that have a monthly cost, as well as Form Recognizer resource that has cost per document page. You can switch them to free versions of each of them if you want to avoid this cost by changing the parameters file under the infra folder (though there are some limits to consider; for example, you can have up to 1 free Cognitive Search resource per subscription, and the free Form Recognizer resource only analyzes the first 2 pages of each document.)
 
+> **DATA** Please ensure you create a folder called data in the root location and add PDFs for your financial products to it prior to deployment. The solution does not have any sample data included.
+
+
 ### Prerequisites
 
 #### To Run Locally
@@ -109,13 +112,6 @@ Once in the web app:
 * [Revolutionize your Enterprise Data with ChatGPT: Next-gen Apps w/ Azure OpenAI and Cognitive Search](https://aka.ms/entgptsearchblog)
 * [Azure Cognitive Search](https://learn.microsoft.com/azure/search/search-what-is-azure-search)
 * [Azure OpenAI Service](https://learn.microsoft.com/azure/cognitive-services/openai/overview)
-
-### Note
-Note: Please ensure you create a folder called data in the root location and add PDFs for your financial products to it prior to deployment. The solution does not have any sample data included.
-
-<!-- 
-### Note
->Note: Microsoft makes no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the information contained in this document. All rights reserved to Microsoft. -->
 
 ### FAQ
 
